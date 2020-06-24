@@ -1,12 +1,11 @@
-/*  .slider に対して幅を定義してもうまくいきません  */
-/*  幅の定義等は .slider の親要素、この場合は container に指定します  */
-
-#container{
-    max-width:800px;
-    margin: 2em auto;
-}
-
-p{
+h1 {
     text-align: center;
     font-size: 24px;
+}
+
+#container{
+  /*  .slider に対して幅を定義してもうまくいきません  */
+  /*  幅の定義等は .slider の親要素、この場合は container に指定します  */
+  max-width:800px;
+  margin: 2em auto;
 }
