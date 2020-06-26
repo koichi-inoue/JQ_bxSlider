@@ -4,9 +4,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-#container{
-  /*  .slider に対して幅を定義してもうまくいきません  */
-  /*  幅の定義等は .slider の親要素、この場合は container に指定します  */
+#slideContainer {
   max-width:800px;
   margin: 2em auto;
 }
